@@ -1,0 +1,64 @@
+
+
+  .login-page {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .login-form-container {
+
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .forgot-password,
+  .signup {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .signup a {
+    color: #000;
+    font-weight: bold;
+  }
+  

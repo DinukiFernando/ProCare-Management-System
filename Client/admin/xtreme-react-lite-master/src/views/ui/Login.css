@@ -1,0 +1,19 @@
+
+.login-page {
+    display: flex;
+    height: 100vh;
+    padding: 10px;
+  }
+  
+  .form-container {
+    width: 100%; /* Adjust the width as needed */
+    padding: 10px;
+    background-color: #9fdbd5;
+  }
+  
+  .image-container {
+    flex: 1;
+    background-image: url("https://www.onlineshs.com/wp-content/uploads/2022/12/shutterstock_1901822248-1-1.png"); /* Add the background image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
